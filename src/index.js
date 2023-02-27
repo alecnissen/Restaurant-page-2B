@@ -1,5 +1,5 @@
-console.log("hey");
+// import './initialPageLoad';
+// import { initialPageLoad } from './initialPageLoad';
+import initialPageLoad from './initialPageLoad';
 
-let container = document.getElementById('content');
-
-console.log(container);
+console.log(initalPageLoad());

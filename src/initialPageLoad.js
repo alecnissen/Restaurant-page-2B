@@ -1,3 +1,12 @@
-// let container = document.getElementById('content');
+  export default function initialPageLoad () { 
+    const headerContent = () => { 
+    let container = document.getElementById('content');
+    console.log(container);
+    }
+    return { 
+        headerContent,
+    }
+  } 
 
-// console.log(container);
+  
+//   initialPageLoad.headerContent();
