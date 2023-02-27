@@ -1,2 +1,3 @@
 # Restaurant-page-2B
-Restaurant page, bravo edition. 
+
+Restaurant page, bravo edition.

@@ -1,0 +1,26 @@
+{
+  "name": "restaurant-page-2b",
+  "version": "1.0.0",
+  "description": "Restaurant page, bravo edition.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alecnissen/Restaurant-page-2B.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alecnissen/Restaurant-page-2B/issues"
+  },
+  "homepage": "https://github.com/alecnissen/Restaurant-page-2B#readme",
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "2.8.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
