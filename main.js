@@ -1,0 +1,1 @@
+(()=>{console.log("hey");let e=document.getElementById("content");console.log(e)})();
