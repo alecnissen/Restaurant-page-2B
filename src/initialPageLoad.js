@@ -20,13 +20,14 @@
     
     return { 
         headerContent,
-    }
+    } 
 } 
 
 // this was able to print the text to the screen, 
 
 // the only difference is that there is no inner function, 
 
+// old function 
 
 // export function initialPageLoad () { 
 //     const contentDiv = document.getElementById('content');
