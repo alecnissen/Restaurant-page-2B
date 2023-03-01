@@ -1,8 +1,12 @@
+// header with title and subtitle, 
+// main content with picture of burger, 
+
+
 
  export function initialPageLoad () { 
+     const contentDivContainer = document.getElementById('content'); 
     const headerContent = () => { 
     
-    const contentDivContainer = document.getElementById('content'); 
 
     console.log(contentDivContainer);
     
@@ -17,9 +21,22 @@
     document.body.append(contentDivContainer);
 
     } 
+
+    // const mainContent = () => { 
+    //     const mainDivContainer = document.createElement('div');
+
+    //     mainDivContainer.classList.add('main-content-div-container');
+
+    //     mainDivContainer.textContent = 'Hello world';
+
+    //     contentDivContainer.append(mainDivContainer);
+
+    //     document.body.append(contentDivContainer);
+    // }
     
     return { 
         headerContent,
+
     } 
 } 
 

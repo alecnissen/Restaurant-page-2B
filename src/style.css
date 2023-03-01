@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@1,700&display=swap');
+
 .header-content-container { 
    display: flex;
    justify-content: center;
    align-items: center;
    text-align: center;
-   color: black;
+   color: red;
    line-height: 2;
    font-size: 3rem;
-}
+   background-color: black;
+   font-family: 'Permanent Marker', cursive;
+   font-size: 4rem;
+   padding: 50px; 
+} 
+
+/* .main-content-div-container { 
+   background-color: yellow;
+} */
+
