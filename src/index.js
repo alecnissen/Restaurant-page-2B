@@ -17,3 +17,7 @@ import './style.css';
 import { initialPageLoad } from './initialPageLoad';
 
 initialPageLoad().headerContent(); 
+
+initialPageLoad().mainContent();
+
+initialPageLoad().footerContent();

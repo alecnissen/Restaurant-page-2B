@@ -12,9 +12,43 @@
    font-family: 'Permanent Marker', cursive;
    font-size: 4rem;
    padding: 50px; 
+   border: 7mm ridge red;
 } 
 
-/* .main-content-div-container { 
-   background-color: yellow;
-} */
 
+
+.main-content-div-container { 
+   display: flex; 
+   justify-content: space-between;
+   /* position: relative; */
+   background-color: black;
+}
+
+.burger-pics { 
+   width: 30%; 
+   border: 7mm ridge black;
+} 
+
+.text-over-image-styles { 
+   width: 30%;
+   color: red; 
+   text-align: center;
+   font-size: 3.5rem;
+   font-family: 'Permanent Marker', cursive;
+} 
+
+
+.footer-content-div { 
+   border: 7mm ridge red;
+   background-color: black;
+   color: red; 
+   text-align: center;
+   height: 8em; 
+   font-family: 'Permanent Marker', cursive;
+   font-size: 2rem;
+}
+
+/* .main-content-burger-img2 { 
+   width: 35%; 
+   border: 20px solid red; 
+} */

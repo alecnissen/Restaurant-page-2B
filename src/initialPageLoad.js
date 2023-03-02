@@ -8,7 +8,7 @@
     const headerContent = () => { 
     
 
-    console.log(contentDivContainer);
+    // console.log(contentDivContainer);
     
     const headerContent = document.createElement('div');
 
@@ -18,25 +18,83 @@
 
     contentDivContainer.append(headerContent);
 
-    document.body.append(contentDivContainer);
+    document.body.append(contentDivContainer); 
 
     } 
 
-    // const mainContent = () => { 
-    //     const mainDivContainer = document.createElement('div');
+    const mainContent = () => { 
 
-    //     mainDivContainer.classList.add('main-content-div-container');
+        let contentDivContainer = document.getElementById('content');
 
-    //     mainDivContainer.textContent = 'Hello world';
+        console.log(contentDivContainer);
 
-    //     contentDivContainer.append(mainDivContainer);
+        const mainDivContainer = document.createElement('div'); 
 
-    //     document.body.append(contentDivContainer);
-    // }
+        // middle text div 
+        const textOverImagesDiv = document.createElement('div');
+
+        textOverImagesDiv.classList.add('text-over-image-styles');
+
+        textOverImagesDiv.innerHTML = 'Welcome! <br> <br> Experience the Tradition <br> <br> Since 1994 we have been proudly serving the community. <br> <br> We take pride in our work and cannot wait to serve you and create wonderful memories';
+
+        mainDivContainer.classList.add('main-content-div-container');
+
+        const burgerImg1 = new Image();
+
+        const burgerImg2 = new Image();
+
+        burgerImg1.classList.add('burger-pics');
+
+        burgerImg2.classList.add('burger-pics');
+
+        // const burgerBackgroundImg = new Image(); 
+
+        // burgerBackgroundImg.classList.add('burger-background-img');
+
+        // burgerBackgroundImg.src = '../angelo-pantazis-gMCO0iXeo_c-unsplash.jpg'
+
+        burgerImg1.src = '../burger-picture-medium-size.jpg';
+
+        burgerImg2.src = '../angelo-pantazis-gMCO0iXeo_c-unsplash.jpg';
+        
+        // mainDivContainer.append(burgerImg1); 
+
+        // append text content in the middle, 
+        mainDivContainer.append(burgerImg1);
+
+        mainDivContainer.append(textOverImagesDiv);
+
+        mainDivContainer.append(burgerImg2);
+
+        // mainDivContainer.append(textOverImagesDiv);
+
+
+
+        // contentDivContainer.append(textOverImagesDiv);
+
+        contentDivContainer.append(mainDivContainer);
+
+        document.body.append(contentDivContainer);
+    } 
+
+    const footerContent = () => { 
+        let contentDivContainer = document.getElementById('content'); 
+
+        let footerDiv = document.createElement('div');
+
+        footerDiv.classList.add('footer-content-div'); 
+
+        footerDiv.innerHTML = '<br> Address: 1234 South Broad Street, Philadelphia PA <br> <br> Phone: 666-666-666'; 
+
+        contentDivContainer.append(footerDiv);
+
+        document.body.append(contentDivContainer);
+    }
     
     return { 
         headerContent,
-
+        mainContent,
+        footerContent,
     } 
 } 
 
