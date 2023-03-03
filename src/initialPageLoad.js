@@ -13,9 +13,9 @@
     
     const headerContent = document.createElement('div'); 
 
-    // const headerBtnContainer = document.createElement('div');
+    const headerBtnContainer = document.createElement('div');
 
-    // headerBtnContainer.classList.add('header-btn-div');
+    headerBtnContainer.classList.add('header-btn-div');
     
     headerContent.classList.add('header-content-container');
     
@@ -23,9 +23,15 @@
     
     const homeBtn = document.createElement('button');
 
-    const menuBtn = document.createElement('button');
+    homeBtn.classList.add('home-btn');
+
+    const menuBtn = document.createElement('button'); 
+
+    menuBtn.classList.add('menu-btn');
 
     const contactBtn = document.createElement('button');
+
+    contactBtn.classList.add('contact-btn');
 
     homeBtn.textContent = 'Home'; 
 
@@ -33,11 +39,19 @@
 
     contactBtn.textContent = 'Contact';
 
-    headerContent.append(homeBtn);
+    headerBtnContainer.append(homeBtn);
 
-    headerContent.append(menuBtn);
+    headerBtnContainer.append(menuBtn);
 
-    headerContent.append(contactBtn);
+    headerBtnContainer.append(contactBtn);
+
+    // headerContent.append(homeBtn);
+
+    // headerContent.append(menuBtn);
+
+    // headerContent.append(contactBtn);
+
+    headerContent.append(headerBtnContainer);
     
     contentDivContainer.append(headerContent);
 
