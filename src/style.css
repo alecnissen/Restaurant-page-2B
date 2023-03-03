@@ -13,7 +13,11 @@
    font-size: 4rem;
    padding: 50px; 
    border: 7mm ridge red;
-} 
+}  
+
+.header-btn-div { 
+   color: white; 
+}
 
 
 
@@ -51,4 +55,8 @@
 /* .main-content-burger-img2 { 
    width: 35%; 
    border: 20px solid red; 
-} */
+} */ 
+
+.header-btns { 
+   color: white; 
+}

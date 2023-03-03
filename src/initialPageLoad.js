@@ -1,24 +1,48 @@
 // header with title and subtitle, 
 // main content with picture of burger, 
 
-
+// find a way to add the buttons into the header, 
+// you will need to create another div, 
+// create the buttons and add them to the div 
+// append the button div to the maincontent container 
 
  export function initialPageLoad () { 
-     const contentDivContainer = document.getElementById('content'); 
+    const contentDivContainer = document.getElementById('content'); 
+    
     const headerContent = () => { 
     
+    const headerContent = document.createElement('div'); 
 
-    // console.log(contentDivContainer);
+    // const headerBtnContainer = document.createElement('div');
+
+    // headerBtnContainer.classList.add('header-btn-div');
     
-    const headerContent = document.createElement('div');
-
     headerContent.classList.add('header-content-container');
-
+    
     headerContent.innerHTML = "Alec's House of Burgers <br> The Best In The City!";
+    
+    const homeBtn = document.createElement('button');
 
+    const menuBtn = document.createElement('button');
+
+    const contactBtn = document.createElement('button');
+
+    homeBtn.textContent = 'Home'; 
+
+    menuBtn.textContent = 'Menu';
+
+    contactBtn.textContent = 'Contact';
+
+    headerContent.append(homeBtn);
+
+    headerContent.append(menuBtn);
+
+    headerContent.append(contactBtn);
+    
     contentDivContainer.append(headerContent);
 
-    document.body.append(contentDivContainer); 
+    document.body.append(contentDivContainer);
+    
 
     } 
 
