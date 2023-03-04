@@ -60,18 +60,18 @@ function determinePage () {
     let mainContentDivContainer = document.getElementById('content'); 
     console.log(mainContentDivContainer);
     if (moduleVariable === 'Home') { 
-        mainContentDivContainer.remove();
+        // mainContentDivContainer.remove();
 
         initialPageLoad().headerContent(); 
         initialPageLoad().mainContent();
 
         initialPageLoad().footerContent();  
     } else if (moduleVariable === 'Menu') { 
-        mainContentDivContainer.remove();
+        // mainContentDivContainer.remove();
         initialPageLoad().headerContent(); 
         initialPageLoad().footerContent();  
     } else if (moduleVariable === 'Contact') { 
-        mainContentDivContainer.remove();
+        // mainContentDivContainer.remove();
 
         initialPageLoad().headerContent(); 
         initialPageLoad().footerContent(); 
