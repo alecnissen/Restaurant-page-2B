@@ -41,8 +41,8 @@
 }
 
 .burger-pics { 
-   width: 30%; 
-   border: 7mm ridge black;
+   width: 35%; 
+   /* border: 20px solid red; */
 } 
 
 .text-over-image-styles { 
