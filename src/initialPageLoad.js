@@ -6,135 +6,129 @@
 // create the buttons and add them to the div 
 // append the button div to the maincontent container 
 
- export function initialPageLoad () { 
-    const contentDivContainer = document.getElementById('content'); 
+//  export function initialPageLoad () { 
+//     const contentDivContainer = document.getElementById('content'); 
     
-    const headerContent = () => { 
+    // const headerContent = () => { 
     
-    const headerContent = document.createElement('div'); 
+    // const headerContent = document.createElement('div'); 
 
-    const headerBtnContainer = document.createElement('div');
+    // const headerBtnContainer = document.createElement('div');
 
-    headerBtnContainer.classList.add('header-btn-div');
+    // headerBtnContainer.classList.add('header-btn-div');
     
-    headerContent.classList.add('header-content-container');
+    // headerContent.classList.add('header-content-container');
     
-    headerContent.innerHTML = "Alec's House of Burgers <br> The Best In The City!";
+    // headerContent.innerHTML = "Alec's House of Burgers <br> The Best In The City!";
     
-    const homeBtn = document.createElement('button');
+    // const homeBtn = document.createElement('button');
 
-    homeBtn.classList.add('home-btn');
+    // homeBtn.classList.add('home-btn');
 
-    const menuBtn = document.createElement('button'); 
+    // const menuBtn = document.createElement('button'); 
 
-    menuBtn.classList.add('menu-btn');
+    // menuBtn.classList.add('menu-btn');
 
-    const contactBtn = document.createElement('button');
+    // const contactBtn = document.createElement('button');
 
-    contactBtn.classList.add('contact-btn');
+    // contactBtn.classList.add('contact-btn');
 
-    homeBtn.textContent = 'Home'; 
+    // homeBtn.textContent = 'Home'; 
 
-    menuBtn.textContent = 'Menu';
+    // menuBtn.textContent = 'Menu';
 
-    contactBtn.textContent = 'Contact';
+    // contactBtn.textContent = 'Contact';
 
-    headerBtnContainer.append(homeBtn);
+    // headerBtnContainer.append(homeBtn);
 
-    headerBtnContainer.append(menuBtn);
+    // headerBtnContainer.append(menuBtn);
 
-    headerBtnContainer.append(contactBtn);
+    // headerBtnContainer.append(contactBtn);
 
-    // headerContent.append(homeBtn);
-
-    // headerContent.append(menuBtn);
-
-    // headerContent.append(contactBtn);
-
-    headerContent.append(headerBtnContainer);
+    // headerContent.append(headerBtnContainer);
     
-    contentDivContainer.append(headerContent);
+    // contentDivContainer.append(headerContent);
 
-    document.body.append(contentDivContainer);
+    // document.body.append(contentDivContainer);
     
 
-    } 
+    // } 
 
-    const mainContent = () => { 
+//     const mainContent = () => { 
 
-        let contentDivContainer = document.getElementById('content');
+//         let contentDivContainer = document.getElementById('content');
 
-        console.log(contentDivContainer);
+//         console.log(contentDivContainer);
 
-        const mainDivContainer = document.createElement('div'); 
+//         const mainDivContainer = document.createElement('div'); 
 
-        // middle text div 
-        const textOverImagesDiv = document.createElement('div');
+//         // middle text div 
+//         const textOverImagesDiv = document.createElement('div');
 
-        textOverImagesDiv.classList.add('text-over-image-styles');
+//         textOverImagesDiv.classList.add('text-over-image-styles');
 
-        textOverImagesDiv.innerHTML = 'Welcome! <br> <br> Experience the Tradition <br> <br> Since 1994 we have been proudly serving the community. <br> <br> We take pride in our work and cannot wait to serve you and create wonderful memories';
+//         textOverImagesDiv.innerHTML = 'Welcome! <br> <br> Experience the Tradition <br> <br> Since 1994 we have been proudly serving the community. <br> <br> We take pride in our work and cannot wait to serve you and create wonderful memories';
 
-        mainDivContainer.classList.add('main-content-div-container');
+//         mainDivContainer.classList.add('main-content-div-container');
 
-        const burgerImg1 = new Image();
+//         const burgerImg1 = new Image();
 
-        const burgerImg2 = new Image();
+//         const burgerImg2 = new Image();
 
-        burgerImg1.classList.add('burger-pics');
+//         burgerImg1.classList.add('burger-pics');
 
-        burgerImg2.classList.add('burger-pics');
+//         burgerImg2.classList.add('burger-pics');
 
-        // const burgerBackgroundImg = new Image(); 
+//         // const burgerBackgroundImg = new Image(); 
 
-        // burgerBackgroundImg.classList.add('burger-background-img');
+//         // burgerBackgroundImg.classList.add('burger-background-img');
 
-        // burgerBackgroundImg.src = '../angelo-pantazis-gMCO0iXeo_c-unsplash.jpg'
+//         // burgerBackgroundImg.src = '../angelo-pantazis-gMCO0iXeo_c-unsplash.jpg'
 
-        burgerImg1.src = '../burger-picture-medium-size.jpg';
+//         burgerImg1.src = '../burger-picture-medium-size.jpg';
 
-        burgerImg2.src = '../angelo-pantazis-gMCO0iXeo_c-unsplash.jpg';
+//         burgerImg2.src = '../angelo-pantazis-gMCO0iXeo_c-unsplash.jpg';
         
-        // mainDivContainer.append(burgerImg1); 
+//         // mainDivContainer.append(burgerImg1); 
 
-        // append text content in the middle, 
-        mainDivContainer.append(burgerImg1);
+//         // append text content in the middle, 
+//         mainDivContainer.append(burgerImg1);
 
-        mainDivContainer.append(textOverImagesDiv);
+//         mainDivContainer.append(textOverImagesDiv);
 
-        mainDivContainer.append(burgerImg2);
+//         mainDivContainer.append(burgerImg2);
 
-        // mainDivContainer.append(textOverImagesDiv);
+//         // mainDivContainer.append(textOverImagesDiv);
 
 
 
-        // contentDivContainer.append(textOverImagesDiv);
+//         // contentDivContainer.append(textOverImagesDiv);
 
-        contentDivContainer.append(mainDivContainer);
+//         contentDivContainer.append(mainDivContainer);
 
-        document.body.append(contentDivContainer);
-    } 
+//         document.body.append(contentDivContainer);
+//     } 
 
-    const footerContent = () => { 
-        let contentDivContainer = document.getElementById('content'); 
+//     const footerContent = () => { 
+//         let contentDivContainer = document.getElementById('content'); 
 
-        let footerDiv = document.createElement('div');
+//         let footerDiv = document.createElement('div');
 
-        footerDiv.classList.add('footer-content-div'); 
+//         footerDiv.classList.add('footer-content-div'); 
 
-        footerDiv.innerHTML = '<br> Address: 1234 South Broad Street, Philadelphia PA <br> <br> Phone: 666-666-666'; 
+//         footerDiv.innerHTML = '<br> Address: 1234 South Broad Street, Philadelphia PA <br> <br> Phone: 666-666-666'; 
 
-        contentDivContainer.append(footerDiv);
+//         contentDivContainer.append(footerDiv);
 
-        document.body.append(contentDivContainer);
-    }
+//         document.body.append(contentDivContainer);
+//     }
     
-    return { 
-        headerContent,
-        mainContent,
-        footerContent,
-    } 
-} 
+//     return { 
+//         headerContent,
+//         mainContent,
+//         footerContent,
+//     } 
+// } 
 
 // this was able to print the text to the screen, 
 
