@@ -1,3 +1,7 @@
+import burgerPic1 from '../burger-pic-1.jpg';
+
+import burgerPic2 from '../burger-pic-2.jpg';
+
 export const mainContent = () => { 
     let contentDivContainer = document.getElementById('content');
 
@@ -28,9 +32,13 @@ export const mainContent = () => {
 
     // burgerBackgroundImg.src = '../angelo-pantazis-gMCO0iXeo_c-unsplash.jpg'
 
-    burgerImg1.src = '../burger-picture-medium-size.jpg';
+    // burgerImg1.src = '../burger-picture-medium-size.jpg';
 
-    burgerImg2.src = '../angelo-pantazis-gMCO0iXeo_c-unsplash.jpg';
+    burgerImg1.src = burgerPic1;
+
+    burgerImg2.src = burgerPic2;
+
+    // burgerImg2.src = '../angelo-pantazis-gMCO0iXeo_c-unsplash.jpg';
     
     // mainDivContainer.append(burgerImg1); 
 
