@@ -1,3 +1,19 @@
+import { headerContent } from './headerContent';
+
+import { mainContent } from './mainContent'; 
+
+import { footerContent } from './footerContent';  
+
+ headerContent(); 
+
+ mainContent(); 
+
+ footerContent(); 
+
+
+export default 'src/initialPageLoad.js';
+
+
 // header with title and subtitle, 
 // main content with picture of burger, 
 

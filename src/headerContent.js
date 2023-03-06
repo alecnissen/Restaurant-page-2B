@@ -37,8 +37,8 @@ export function headerContent() {
 
     headerContent.append(headerBtnContainer);
     
-    contentDivContainer.append(headerContent);
+    contentDivContainer.appendChild(headerContent);
 
-    document.body.append(contentDivContainer);
+    // document.body.append(contentDivContainer);
     
 }

@@ -9,6 +9,6 @@ footerDiv.innerHTML = '<br> Address: 1234 South Broad Street, Philadelphia PA <b
 
 contentDivContainer.append(footerDiv);
 
-document.body.append(contentDivContainer);
+// document.body.append(contentDivContainer);
 
 }

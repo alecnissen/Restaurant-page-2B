@@ -1,19 +1,27 @@
 
 import './style.css';
 
-import { headerContent } from './headerContent';
+// import { headerContent } from './headerContent';
 
-import { mainContent } from './mainContent'; 
+// import { mainContent } from './mainContent'; 
 
-import { footerContent } from './footerContent'; 
+// import { footerContent } from './footerContent'; 
 
 import { menuContent } from './menuContent';
 
-headerContent(); 
+// import '.initialPageLoad';
+import initialPageLoad from './initialPageLoad';
 
-mainContent(); 
+initialPageLoad();
 
-footerContent(); 
+// headerContent(); 
+
+// mainContent(); 
+
+// footerContent(); 
+
+
+
 
 let contentDivContainer = document.getElementById('content'); 
 
@@ -58,19 +66,12 @@ headerContactBtn.addEventListener('click', () => {
 // remove previous content/styles then render new 
 
 function determinePage () { 
-    if (moduleVariable === 'Home') { 
-        headerContent(); 
-        mainContent();
-        footerContent();  
-    } else if (moduleVariable === 'Menu') { 
-        // headerContent(); 
-        console.log('hey');
+    if (moduleVariable === 'Home') {   
         contentDivContainer.replaceChild(menuContent(), containerChildren[1]);
-        // menuContent();
-        // footerContent();  
+    } else if (moduleVariable === 'Menu') { 
+        contentDivContainer.replaceChild(menuContent(), containerChildren[1]);
     } else if (moduleVariable === 'Contact') { 
-        headerContent(); 
-        footerContent(); 
+        // contentDivContainer.replaceChild(menuContent(), containerChildren[1]);
     }
 } 
 
