@@ -1,7 +1,7 @@
 export function headerContent() { 
     const contentDivContainer = document.getElementById('content'); 
 
-    const headerContent = document.createElement('div'); 
+    const headerContentDiv = document.createElement('div'); 
 
     const headerBtnContainer = document.createElement('div');
 
@@ -37,7 +37,7 @@ export function headerContent() {
 
     headerContent.append(headerBtnContainer); 
     
-    return headerContent();
+    return { headerContentDiv, headerBtnContainer };
     
     // contentDivContainer.appendChild(headerContent);
 

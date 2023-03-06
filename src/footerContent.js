@@ -7,7 +7,7 @@ footerDiv.classList.add('footer-content-div');
 
 footerDiv.innerHTML = '<br> Address: 1234 South Broad Street, Philadelphia PA <br> <br> Phone: 666-666-666'; 
 
-return footerContent();
+return footerDiv; 
 // contentDivContainer.append(footerDiv);
 
 // document.body.append(contentDivContainer);

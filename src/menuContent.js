@@ -9,7 +9,9 @@ div.style.backgroundColor = 'yellow';
 
 div.style.color = 'black';
 
-contentDivContainer.append(div); 
+contentDivContainer.append(div);  
+
+return div; 
 
 // document.body.append(contentDivContainer);
 }

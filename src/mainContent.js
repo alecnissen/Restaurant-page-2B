@@ -49,13 +49,9 @@ export const mainContent = () => {
 
     mainDivContainer.append(burgerImg2);
 
-    // mainDivContainer.append(textOverImagesDiv);
+    return { mainDivContainer, textOverImagesDiv };
+    
+    // contentDivContainer.append(mainDivContainer); 
 
-
-
-    // contentDivContainer.append(textOverImagesDiv);
-
-    contentDivContainer.append(mainDivContainer);
-
-    document.body.append(contentDivContainer);
+    // document.body.append(contentDivContainer);
 }
