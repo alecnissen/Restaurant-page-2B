@@ -34,8 +34,8 @@ export function headerContent() {
 
     headerBtnContainer.append(contactBtn);
 
-    headerContent.append(headerBtnContainer); 
+    headerContentDiv.append(headerBtnContainer); 
     
-    return { headerContentDiv };
+    return  headerContentDiv ;
     
 }

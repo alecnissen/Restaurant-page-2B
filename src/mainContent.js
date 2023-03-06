@@ -32,6 +32,6 @@ export const mainContent = () => {
 
     mainDivContainer.append(burgerImg2);
 
-    return { mainDivContainer };
+    return  mainDivContainer ;
     
 } 

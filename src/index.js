@@ -3,6 +3,9 @@ import './style.css';
 import { renderPageContents } from './initialPageLoad'; 
 
 import { menuContent } from './menuContent.js';
+import { headerContent } from './headerContent';
+import { mainContent } from './mainContent';
+import { footerContent } from './footerContent';
 
 let contentDivContainer = document.getElementById('content'); 
 
@@ -38,7 +41,7 @@ headerContactBtn.addEventListener('click', () => {
 
 function determinePage () { 
     if (moduleVariable === 'Home') {   
-        contentDivContainer.replaceChild(menuContent(), containerChildren[1]);
+         contentDivContainer.replaceChild(mainContent(), containerChildren[1]);
     } else if (moduleVariable === 'Menu') { 
         contentDivContainer.replaceChild(menuContent(), containerChildren[1]);
     } else if (moduleVariable === 'Contact') { 
@@ -46,4 +49,4 @@ function determinePage () {
     }
 } 
 
-determinePage(); 
+// determinePage(); 
