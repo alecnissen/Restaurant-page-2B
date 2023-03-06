@@ -35,9 +35,11 @@ export function headerContent() {
 
     headerBtnContainer.append(contactBtn);
 
-    headerContent.append(headerBtnContainer);
+    headerContent.append(headerBtnContainer); 
     
-    contentDivContainer.appendChild(headerContent);
+    return headerContent();
+    
+    // contentDivContainer.appendChild(headerContent);
 
     // document.body.append(contentDivContainer);
     
