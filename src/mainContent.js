@@ -3,13 +3,9 @@ import burgerPic1 from '../burger-pic-1.jpg';
 import burgerPic2 from '../burger-pic-2.jpg';
 
 export const mainContent = () => { 
-    let contentDivContainer = document.getElementById('content');
-
-    console.log(contentDivContainer);
 
     const mainDivContainer = document.createElement('div'); 
 
-    // middle text div 
     const textOverImagesDiv = document.createElement('div');
 
     textOverImagesDiv.classList.add('text-over-image-styles');
@@ -26,32 +22,16 @@ export const mainContent = () => {
 
     burgerImg2.classList.add('burger-pics');
 
-    // const burgerBackgroundImg = new Image(); 
-
-    // burgerBackgroundImg.classList.add('burger-background-img');
-
-    // burgerBackgroundImg.src = '../angelo-pantazis-gMCO0iXeo_c-unsplash.jpg'
-
-    // burgerImg1.src = '../burger-picture-medium-size.jpg';
-
     burgerImg1.src = burgerPic1;
 
     burgerImg2.src = burgerPic2;
 
-    // burgerImg2.src = '../angelo-pantazis-gMCO0iXeo_c-unsplash.jpg';
-    
-    // mainDivContainer.append(burgerImg1); 
-
-    // append text content in the middle, 
     mainDivContainer.append(burgerImg1);
 
     mainDivContainer.append(textOverImagesDiv);
 
     mainDivContainer.append(burgerImg2);
 
-    return { mainDivContainer, textOverImagesDiv };
+    return { mainDivContainer };
     
-    // contentDivContainer.append(mainDivContainer); 
-
-    // document.body.append(contentDivContainer);
-}
+} 

@@ -1,5 +1,4 @@
 export function headerContent() { 
-    const contentDivContainer = document.getElementById('content'); 
 
     const headerContentDiv = document.createElement('div'); 
 
@@ -7,9 +6,9 @@ export function headerContent() {
 
     headerBtnContainer.classList.add('header-btn-div');
     
-    headerContent.classList.add('header-content-container');
+    headerContentDiv.classList.add('header-content-container');
     
-    headerContent.innerHTML = "Alec's House of Burgers <br> The Best In The City!";
+    headerContentDiv.innerHTML = "Alec's House of Burgers <br> The Best In The City!";
     
     const homeBtn = document.createElement('button');
 
@@ -37,10 +36,6 @@ export function headerContent() {
 
     headerContent.append(headerBtnContainer); 
     
-    return { headerContentDiv, headerBtnContainer };
-    
-    // contentDivContainer.appendChild(headerContent);
-
-    // document.body.append(contentDivContainer);
+    return { headerContentDiv };
     
 }
