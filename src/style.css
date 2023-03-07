@@ -71,10 +71,28 @@
    color: black;
    text-align: center; 
    font-family: 'Permanent Marker', cursive;
-   font-size: 4rem; 
+   font-size: 3rem; 
    /* text-decoration: underline; */
 }
 
+.starter-menu-header-text { 
+   font-size: 5rem; 
+   text-decoration: underline;
+} 
+
+.burger-menu-header-text { 
+   font-size: 5rem;
+   text-decoration: underline;
+} 
+
+.cheese-steak-header-text { 
+   font-size: 5rem;
+   text-decoration: underline;
+}
+
+.cheese-steak-header-text { 
+   font-size: 5rem;
+}
 
 .cheese-fries-input-text { 
    /* display: inline; */
@@ -85,6 +103,10 @@
 .cheese-fries-description-text { 
    font-size: 1rem;
 } 
+
+.onion-rings-description-text { 
+   font-size: 1rem;
+}
 
 .boneless-wings-description-text { 
    font-size: 1rem;
@@ -98,6 +120,29 @@
    font-size: 1rem;
 }
 
+.the-classic-burger-description-text { 
+   font-size: 1rem;
+} 
+
+.double-bacon-cheeseburger-description-text { 
+   font-size: 1rem;
+} 
+
+.elk-burger-description-text { 
+   font-size: 1rem;
+} 
+
+.frita-burger-description-text { 
+   font-size: 1rem;
+} 
+
+.classic-philly-cheesesteak-description-text { 
+   font-size: 1rem;
+} 
+
+.steak-milano-cheesesteak-description-text { 
+   font-size: 1rem;
+} 
 
 /* .main-content-burger-img2 { 
    width: 35%; 
