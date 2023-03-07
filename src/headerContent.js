@@ -8,8 +8,10 @@ export function headerContent() {
     
     headerContentDiv.classList.add('header-content-container');
     
-    headerContentDiv.innerHTML = "Alec's House of Burgers <br> The Best In The City!";
+    // headerContentDiv.innerHTML = "Alec's House of Burgers <br> The Best In The City!";
     
+    headerContentDiv.textContent = "Alec's House of Burgers \r\n The Best In The City!";
+
     const homeBtn = document.createElement('button');
 
     homeBtn.classList.add('home-btn');

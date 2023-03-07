@@ -15,6 +15,7 @@
    font-size: 4rem;
    padding: 50px; 
    border: 7mm ridge red;
+   white-space: pre-line;
 }  
 
 .header-btn-div {  
@@ -52,6 +53,7 @@
    text-align: center;
    font-size: 3.5rem;
    font-family: 'Permanent Marker', cursive;
+   white-space: pre-line;
 } 
 
 
@@ -63,6 +65,7 @@
    height: 8em; 
    font-family: 'Permanent Marker', cursive;
    font-size: 2rem;
+   white-space: pre-line;
 } 
 
 .menu-section-div { 
@@ -72,6 +75,7 @@
    text-align: center; 
    font-family: 'Permanent Marker', cursive;
    font-size: 3rem; 
+   margin-bottom: -17px; 
    /* text-decoration: underline; */
 }
 
