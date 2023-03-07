@@ -25,7 +25,7 @@ let cheeseFriesInput = document.createElement('div');
 
 cheeseFriesInput.classList.add('cheese-fries-input-text');
 
-cheeseFriesInput.textContent = 'Cheese-Fries'; 
+cheeseFriesInput.textContent = 'Cheese-Fries or Regular Fries: $2'; 
 
 let cheeseFriesDescriptionText = document.createElement('p');
 
@@ -39,7 +39,7 @@ let onionRingsInput = document.createElement('div');
 
 onionRingsInput.classList.add('onion-rings-input'); 
 
-onionRingsInput.textContent = 'Onion Rings'; 
+onionRingsInput.textContent = 'Onion Rings: $3'; 
 
 let onionRingsDescriptionText = document.createElement('p'); 
 
@@ -53,13 +53,13 @@ let bonelessWingsInput = document.createElement('div');
 
 bonelessWingsInput.classList.add('boneless-wings-input'); 
 
-bonelessWingsInput.textContent = "Boneless Wings:"; 
+bonelessWingsInput.textContent = "Boneless Wings: 5ct: $2 / 10ct: $3.25 / 20ct: $6"; 
 
 let bonelessWingsDescriptionText = document.createElement('p');
 
 bonelessWingsDescriptionText.classList.add('boneless-wings-description-text'); 
 
-bonelessWingsDescriptionText.textContent = '5ct, 10ct, 20ct. Served with blue cheese, BBQ sauce, butter and garlic and cajun buffalo';
+bonelessWingsDescriptionText.textContent = 'Served with blue cheese, BBQ sauce, butter and garlic and cajun buffalo';
 
 bonelessWingsInput.appendChild(bonelessWingsDescriptionText);
 
@@ -67,7 +67,7 @@ let mozzarellaStickInput = document.createElement('div');
 
 mozzarellaStickInput.classList.add('mozzarella-stick-input');
 
-mozzarellaStickInput.textContent = 'Mozzarella Sticks';
+mozzarellaStickInput.textContent = 'Mozzarella Sticks: $3';
 
 let mozzarellaStickDescription = document.createElement('p'); 
 
@@ -81,7 +81,7 @@ let alecNachosInput = document.createElement('div');
 
 alecNachosInput.classList.add('alec-nacho-input');
 
-alecNachosInput.textContent = "Alec's Nachos Supreme";
+alecNachosInput.textContent = "Alec's Nachos Supreme: $5";
 
 let alecNachosDescription = document.createElement('p');
 
@@ -101,7 +101,7 @@ let theClassicBurgerInput = document.createElement('div');
 
 theClassicBurgerInput.classList.add('classic-burger-input');
 
-theClassicBurgerInput.textContent = 'The Classic';
+theClassicBurgerInput.textContent = 'The Classic: $5.25';
 
 let theClassicBurgerDescription = document.createElement('p');
 
@@ -115,7 +115,7 @@ let doubleBaconCheeseburgerInput = document.createElement('div');
 
 doubleBaconCheeseburgerInput.classList.add('double-bacon-cheese-burger-input');
 
-doubleBaconCheeseburgerInput.textContent = 'The infamous double bacon cheeseburger';
+doubleBaconCheeseburgerInput.textContent = 'The infamous double bacon cheeseburger: $6.25';
 
 let doubleBaconCheeseBurgerDescription = document.createElement('p');
 
@@ -129,7 +129,7 @@ let elkBurgerInput = document.createElement('div');
 
 elkBurgerInput.classList.add('elk-burger-input');
 
-elkBurgerInput.textContent = 'Elk Burger'; 
+elkBurgerInput.textContent = 'Elk Burger: $7'; 
 
 let elkBurgerDescription = document.createElement('p'); 
 
@@ -143,7 +143,7 @@ let fritaBurger = document.createElement('div');
 
 fritaBurger.classList.add('frita-burger-input');
 
-fritaBurger.textContent = 'Frita Burger/Frita Cubana'; 
+fritaBurger.textContent = 'Frita Burger/Frita Cubana: $6.50'; 
 
 let fritaBurgerDescription = document.createElement('p');
 
@@ -163,7 +163,7 @@ let classicPhillyCheeseSteakInput = document.createElement('div');
 
 classicPhillyCheeseSteakInput.classList.add('classic-philly-cheesesteak-input'); 
 
-classicPhillyCheeseSteakInput.textContent = 'Traditional Philly Cheesesteak: $5'; 
+classicPhillyCheeseSteakInput.textContent = 'Traditional Philly Cheesesteak: $6'; 
 
 let classicPhillyCheeseSteakDescription = document.createElement('p'); 
 
@@ -177,7 +177,7 @@ let steakMilanoCheeseSteakInput = document.createElement('div');
 
 steakMilanoCheeseSteakInput.classList.add('steak-milano-cheesesteak-input'); 
 
-steakMilanoCheeseSteakInput.textContent = 'Steak Milano Cheesesteak: $4.25';
+steakMilanoCheeseSteakInput.textContent = 'Steak Milano Cheesesteak: $6.25';
 
 let steakMilanoCheeseSteakDescription = document.createElement('p'); 
 
