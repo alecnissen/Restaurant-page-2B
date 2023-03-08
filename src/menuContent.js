@@ -102,7 +102,13 @@ alecNachosDescription.classList.add('alec-nachos-description-text');
 
 alecNachosDescription.textContent = 'Tortilla chips loaded with beans, chili, melted chedder cheese, lettuce, onions, jalapenos, tomatoes, served with sour cream and salsa'
 
-alecNachosInput.appendChild(alecNachosDescription);
+alecNachosInput.appendChild(alecNachosDescription); 
+
+let wingsMenuContentImg1 = new Image(); 
+
+wingsMenuContentImg1.classList.add('wings-picture-menu-content'); 
+
+wingsMenuContentImg1.src = '../scott-eckersley-R-7_ErUOLxw-unsplash.jpg';
 
 let burgerMenuText = document.createElement('div');
 
@@ -166,6 +172,12 @@ fritaBurgerDescription.textContent = 'A true classic, cuban rolls, ketchup, shoe
 
 fritaBurger.appendChild(fritaBurgerDescription); 
 
+let burgerMenuContentImg2 = new Image(); 
+
+burgerMenuContentImg2.classList.add('menu-picture-burger-img-2');
+
+burgerMenuContentImg2.src = '../Burgers-image-3.jpg';
+
 let cheeseSteaksMenuText = document.createElement('div'); 
 
 cheeseSteaksMenuText.classList.add('cheese-steak-header-text');
@@ -200,6 +212,38 @@ steakMilanoCheeseSteakDescription.textContent = 'Soft fluffy Italian roll, thin-
 
 steakMilanoCheeseSteakInput.appendChild(steakMilanoCheeseSteakDescription);
 
+let menuContentImg3 = new Image(); 
+
+menuContentImg3.src = '../pexels-natan-machado-fotografia-gastronômica-15141034.jpg';
+
+let pepperCheeseSteakInput = document.createElement('div');
+
+pepperCheeseSteakInput.classList.add('pepper-cheesesteak-input'); 
+
+pepperCheeseSteakInput.textContent = 'Pepper CheeseSteak: $5'; 
+
+let pepperCheeseSteakDescription = document.createElement('p');
+
+pepperCheeseSteakDescription.classList.add('pepper-cheesesteak-description-text');
+
+pepperCheeseSteakDescription.textContent = 'Hoagie roll, thin-sliced ribeye steak, bell peppers, onions, provolone cheese, italian seasoning';
+
+pepperCheeseSteakInput.appendChild(pepperCheeseSteakDescription);
+
+let phillyCheeseSteakBurgerInput = document.createElement('div'); 
+
+phillyCheeseSteakBurgerInput.classList.add('philly-cheesesteak-burger-input'); 
+
+phillyCheeseSteakBurgerInput.textContent = 'Philly Cheesesteak Burger: $6.25'; 
+
+let phillyCheeseSteakBurgerDescription = document.createElement('p'); 
+
+phillyCheeseSteakBurgerDescription.classList.add('philly-cheesesteak-burger-description'); 
+
+phillyCheeseSteakBurgerDescription.textContent = 'Fresh italian buns, prime ground beef, onions, jalopeno peppers, melted chedder or provolone cheese, lettuce, italian spices, served with cheese sauce and mayo' 
+
+phillyCheeseSteakBurgerInput.appendChild(phillyCheeseSteakBurgerDescription);
+
 div.appendChild(hamburgerSVGIMG);
 
 div.appendChild(lineBreak);
@@ -210,13 +254,15 @@ div.appendChild(starterMenuText);
 
 div.appendChild(cheeseFriesInput);
 
-div.appendChild(bonelessWingsInput);
-
 div.appendChild(onionRingsInput);
 
 div.appendChild(mozzarellaStickInput);
 
-div.appendChild(alecNachosInput);
+div.appendChild(alecNachosInput); 
+
+div.appendChild(bonelessWingsInput);
+
+div.appendChild(wingsMenuContentImg1);
 
 div.appendChild(burgerMenuText);
 
@@ -228,11 +274,19 @@ div.appendChild(elkBurgerInput);
 
 div.appendChild(fritaBurger);
 
+div.appendChild(burgerMenuContentImg2);
+
 div.appendChild(cheeseSteaksMenuText);
 
 div.appendChild(classicPhillyCheeseSteakInput); 
 
-div.append(steakMilanoCheeseSteakInput);
+div.appendChild(steakMilanoCheeseSteakInput);
+
+div.appendChild(pepperCheeseSteakInput);
+
+div.appendChild(phillyCheeseSteakBurgerInput);
+
+div.appendChild(menuContentImg3);
 
 return div; 
 

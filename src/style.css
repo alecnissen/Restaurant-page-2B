@@ -110,10 +110,20 @@
 .elk-burger-description-text,
 .frita-burger-description-text, 
 .classic-philly-cheesesteak-description-text,
-.steak-milano-cheesesteak-description-text
+.steak-milano-cheesesteak-description-text, 
+.pepper-cheesesteak-description-text, 
+.philly-cheesesteak-burger-description
  { 
    font-size: 1rem;
 }  
+
+.wings-picture-menu-content { 
+   width: 10em;
+}
+
+.menu-picture-burger-img-2 { 
+   width: 12em; 
+}
 
 /* .contact-page-location-picture-styles { 
    display: flex;
