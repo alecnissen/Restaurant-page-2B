@@ -9,18 +9,20 @@
 
 import locationPicture from '../rest-page-contact-page-location-2 (1).png';
 
-import burgerIcon from '../icons8-burgers-64.png';
+// import burgerIcon from '../icons8-burgers-64.png';
 
 export const contactPage = () => { 
     let div = document.createElement('div');
     
     div.classList.add('contact-page-container-div-styles'); 
 
-    // let contactPageBurgerIcon = document.createElement('img'); 
+    let contactPageBurgerIcon = document.createElement('img'); 
 
-    let contactPageBurgerIcon = new Image(); 
+    contactPageBurgerIcon.style.width = '15em';
 
-    contactPageBurgerIcon.src = burgerIcon;
+    // let contactPageBurgerIcon = new Image(); 
+
+    contactPageBurgerIcon.src = '../hamburger-svgrepo-com.svg';
 
     let contactPagePhoneNumberText = document.createElement('p'); 
 
@@ -44,15 +46,27 @@ export const contactPage = () => {
 
     contactPageFarewellText.textContent = 'We cannot wait to serve you! \r\n Please visit our wonderful family owned restaurant \r\n take a look at our excellent menu and order online! \r\n Experience Philadelphia Tradition!';
 
+    let burgerChefImg = new Image(); 
+
+    burgerChefImg.src = '../jesson-mata-I2Erl2cU_A4-unsplash.jpg';
+
+    burgerChefImg.style.width = '52em'; 
+
+    let contactPageLineBreak = document.createElement('br');
+
     locationPictureContactPage.src = locationPicture;  
 
-    // div.appendChild(burgerIcon);
+    div.appendChild(contactPageBurgerIcon);
 
     div.appendChild(contactPagePhoneNumberText);
 
     div.appendChild(contactPageAddressText); 
 
     div.appendChild(contactPageFarewellText);
+
+    div.appendChild(burgerChefImg);
+
+    div.appendChild(contactPageLineBreak);
     
     div.appendChild(locationPictureContactPage);
 

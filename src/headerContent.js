@@ -14,7 +14,9 @@ export function headerContent() {
 
     let svgBurgerImg = document.createElement('img'); 
 
-    svgBurgerImg.src ='../sandwich-burger-svgrepo-com.svg'
+    svgBurgerImg.src ='../hamburger-svgrepo-com.svg'
+
+    svgBurgerImg.style.width = '4em';
 
     const homeBtn = document.createElement('button');
 
