@@ -10,7 +10,11 @@ export function headerContent() {
     
     // headerContentDiv.innerHTML = "Alec's House of Burgers <br> The Best In The City!";
     
-    headerContentDiv.textContent = "Alec's House of Burgers \r\n The Best In The City!";
+    headerContentDiv.textContent = "Alec's House of Burgers \r\n The Best In The City! \r\n  Dine-in, Takeout, Delivery";
+
+    let svgBurgerImg = document.createElement('img'); 
+
+    svgBurgerImg.src ='../sandwich-burger-svgrepo-com.svg'
 
     const homeBtn = document.createElement('button');
 
@@ -29,6 +33,8 @@ export function headerContent() {
     menuBtn.textContent = 'Menu';
 
     contactBtn.textContent = 'Contact';
+
+    headerContentDiv.appendChild(svgBurgerImg);
 
     headerBtnContainer.append(homeBtn);
 

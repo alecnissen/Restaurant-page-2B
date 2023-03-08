@@ -14,7 +14,8 @@
    font-family: 'Permanent Marker', cursive;
    font-size: 4rem;
    padding: 50px; 
-   border: 7mm ridge red;
+   /* border: 7mm ridge red; */
+   border: 2mm ridge white;
    white-space: pre-line;
 }  
 
@@ -58,7 +59,8 @@
 
 
 .footer-content-div { 
-   border: 7mm ridge red;
+   /* border: 7mm ridge red; */
+   border: 2mm ridge white;
    background-color: black;
    color: white; 
    text-align: center;
@@ -99,4 +101,29 @@
 .steak-milano-cheesesteak-description-text
  { 
    font-size: 1rem;
+}  
+
+/* .contact-page-location-picture-styles { 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+} */
+
+.contact-page-container-div-styles { 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: yellow;
 } 
+
+.contact-page-phone-number-styles, 
+.contact-page-address-text-styles, 
+.contact-page-farewell-text { 
+   font-size: 3rem; 
+   font-family: 'Permanent Marker', cursive;
+   text-decoration: underline;
+   text-align: center; 
+   white-space: pre-line;
+}

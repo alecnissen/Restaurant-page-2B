@@ -7,6 +7,9 @@
 
 // you can possibly use p elements, have a div be the title, 
 
+// I would possibly add a button at the top, that says click here to order online 
+// text above button then just a standard button styled 
+
 export const menuContent = () => { 
 
 let div = document.createElement('div'); 
