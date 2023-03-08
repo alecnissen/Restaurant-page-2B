@@ -9,7 +9,7 @@
    /* color: red; */
    color: white; 
    line-height: 2;
-   font-size: 3rem;
+   font-size: 5rem;
    background-color: black;
    font-family: 'Permanent Marker', cursive;
    font-size: 4rem;
@@ -28,11 +28,18 @@
 
 .home-btn, 
 .menu-btn, 
-.contact-btn { 
+.contact-btn, 
+.order-online-btn { 
    font-size: 2rem; 
    font-family: 'Permanent Marker', cursive;
    background-color: white;
-}
+} 
+
+/* .menu-order-online-btn { 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} */
 
 
 

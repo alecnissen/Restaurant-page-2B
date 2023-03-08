@@ -24,6 +24,10 @@ export function headerContent() {
 
     menuBtn.classList.add('menu-btn');
 
+    const orderOnlineBtn = document.createElement('button');
+
+    orderOnlineBtn.classList.add('order-online-btn');
+
     const contactBtn = document.createElement('button');
 
     contactBtn.classList.add('contact-btn');
@@ -32,6 +36,8 @@ export function headerContent() {
 
     menuBtn.textContent = 'Menu';
 
+    // orderOnlineBtn.textContent = 'Order Online';
+
     contactBtn.textContent = 'Contact';
 
     headerContentDiv.appendChild(svgBurgerImg);
@@ -39,6 +45,8 @@ export function headerContent() {
     headerBtnContainer.append(homeBtn);
 
     headerBtnContainer.append(menuBtn);
+
+    // headerBtnContainer.append(orderOnlineBtn);
 
     headerBtnContainer.append(contactBtn);
 

@@ -16,7 +16,15 @@ let div = document.createElement('div');
 
 div.classList.add('menu-section-div');
 
-// div.textContent = 'Starters'; 
+let hamburgerSVGIMG = document.createElement('img'); 
+
+hamburgerSVGIMG.src = '../burger.png';
+
+let orderOnlineBtn = document.createElement('button'); 
+
+orderOnlineBtn.classList.add('menu-order-online-btn'); 
+
+orderOnlineBtn.textContent = 'Order Online';
 
 let starterMenuText = document.createElement('div'); 
 
@@ -189,6 +197,10 @@ steakMilanoCheeseSteakDescription.classList.add('steak-milano-cheesesteak-descri
 steakMilanoCheeseSteakDescription.textContent = 'Soft fluffy Italian roll, thin-sliced ribeye meat and beefsteak tomato, provolone or american cheese, oregano and vidalia onions'; 
 
 steakMilanoCheeseSteakInput.appendChild(steakMilanoCheeseSteakDescription);
+
+div.appendChild(hamburgerSVGIMG);
+
+div.appendChild(orderOnlineBtn);
 
 div.appendChild(starterMenuText);
 
