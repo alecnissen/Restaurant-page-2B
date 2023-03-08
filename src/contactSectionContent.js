@@ -8,12 +8,19 @@
 
 
 import locationPicture from '../rest-page-contact-page-location-2 (1).png';
-// import burgerChef from '../burger-chef-pic-contact-page.jpg';
+
+import burgerIcon from '../icons8-burgers-64.png';
 
 export const contactPage = () => { 
     let div = document.createElement('div');
     
     div.classList.add('contact-page-container-div-styles'); 
+
+    // let contactPageBurgerIcon = document.createElement('img'); 
+
+    let contactPageBurgerIcon = new Image(); 
+
+    contactPageBurgerIcon.src = burgerIcon;
 
     let contactPagePhoneNumberText = document.createElement('p'); 
 
@@ -38,6 +45,8 @@ export const contactPage = () => {
     contactPageFarewellText.textContent = 'We cannot wait to serve you! \r\n Please visit our wonderful family owned restaurant \r\n take a look at our excellent menu and order online! \r\n Experience Philadelphia Tradition!';
 
     locationPictureContactPage.src = locationPicture;  
+
+    // div.appendChild(burgerIcon);
 
     div.appendChild(contactPagePhoneNumberText);
 

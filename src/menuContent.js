@@ -18,7 +18,9 @@ div.classList.add('menu-section-div');
 
 let hamburgerSVGIMG = document.createElement('img'); 
 
-hamburgerSVGIMG.src = '../burger.png';
+hamburgerSVGIMG.src = '../burger.png'; 
+
+let lineBreak = document.createElement("br");
 
 let orderOnlineBtn = document.createElement('button'); 
 
@@ -118,7 +120,7 @@ let theClassicBurgerDescription = document.createElement('p');
 
 theClassicBurgerDescription.classList.add('the-classic-burger-description-text'); 
 
-theClassicBurgerDescription.textContent = "Get ready, two fresh buns, the finest grass-fed ground beef patties, crisp lettuce, tomato, onions, sirachi and mayo sauce, topped off peppers and your choice of spices!";
+theClassicBurgerDescription.textContent = "Get ready, tdwo fresh buns, the finest grass-fed ground beef patties, crisp lettuce, tomato, onions, sirachi and mayo sauce, topped off peppers and your choice of spices!";
 
 theClassicBurgerInput.appendChild(theClassicBurgerDescription);
 
@@ -199,6 +201,8 @@ steakMilanoCheeseSteakDescription.textContent = 'Soft fluffy Italian roll, thin-
 steakMilanoCheeseSteakInput.appendChild(steakMilanoCheeseSteakDescription);
 
 div.appendChild(hamburgerSVGIMG);
+
+div.appendChild(lineBreak);
 
 div.appendChild(orderOnlineBtn);
 

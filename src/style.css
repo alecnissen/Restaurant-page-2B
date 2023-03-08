@@ -86,6 +86,11 @@
    font-size: 3rem; 
    margin-bottom: -17px; 
    /* text-decoration: underline; */
+} 
+
+.menu-order-online-btn { 
+   font-size: 3rem; 
+   font-family: 'Permanent Marker', cursive;
 }
 
 .starter-menu-header-text, 
