@@ -14,11 +14,11 @@ export function headerContent() {
     
     headerContentDiv.textContent = "Alec's House of Burgers and Cheesesteak's \r\n The Best In The City! \r\n  Dine-in, Takeout, Delivery";
 
-    let headerBurgerIcon = document.createElement('img'); 
+    let headerBurgerTopIcon = document.createElement('img'); 
 
-    headerBurgerIcon.src = headerBurgerIcon;
+    headerBurgerTopIcon.src = headerBurgerIcon;
 
-    headerBurgerIcon.style.width = '4em';
+    headerBurgerTopIcon.style.width = '4em';
 
     const homeBtn = document.createElement('button');
 
@@ -44,7 +44,7 @@ export function headerContent() {
 
     contactBtn.textContent = 'Contact';
 
-    headerContentDiv.append(headerBurgerIcon);
+    headerContentDiv.append(headerBurgerTopIcon);
 
     headerBtnContainer.append(homeBtn);
 

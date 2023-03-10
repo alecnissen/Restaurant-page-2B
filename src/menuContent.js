@@ -12,17 +12,19 @@
 
 import menuBurgerIcon from '../burger.png';
 
+import wingsMenuImg from '../scott-eckersley-R-7_ErUOLxw-unsplash.jpg';
+
 export const menuContent = () => { 
 
 let div = document.createElement('div'); 
 
 div.classList.add('menu-section-div');
 
-let menuBurgerIcon = document.createElement('img'); 
+let menuBurgerIconImg = document.createElement('img'); 
 
-menuBurgerIcon.classList.add('menu-burger-top-img');
+menuBurgerIconImg.classList.add('menu-burger-top-img');
 
-menuBurgerIcon.src = menuBurgerIcon; 
+menuBurgerIconImg.src = menuBurgerIcon; 
 
 let lineBreak = document.createElement("br");
 
@@ -112,7 +114,7 @@ let wingsMenuContentImg1 = new Image();
 
 wingsMenuContentImg1.classList.add('wings-picture-menu-content'); 
 
-wingsMenuContentImg1.src = '../scott-eckersley-R-7_ErUOLxw-unsplash.jpg';
+wingsMenuContentImg1.src = wingsMenuImg;
 
 let burgerMenuText = document.createElement('div');
 
@@ -248,7 +250,7 @@ phillyCheeseSteakBurgerDescription.textContent = 'Fresh italian buns, prime grou
 
 phillyCheeseSteakBurgerInput.appendChild(phillyCheeseSteakBurgerDescription);
 
-div.appendChild(menuBurgerIcon);
+div.appendChild(menuBurgerIconImg);
 
 div.appendChild(lineBreak);
 
