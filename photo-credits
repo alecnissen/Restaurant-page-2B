@@ -1,9 +1,33 @@
-wings img2 menu
+home imgs: 
+burger header icon/img: <a href="https://www.flaticon.com/free-icons/burger" title="burger icons">Burger icons created by Freepik - Flaticon</a>
+
+burger left img: Photo by <a href="https://unsplash.com/@angelopantazis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Angelo Pantazis</a> on <a href="https://unsplash.com/photos/gMCO0iXeo_c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+burger right img: Photo by <a href="https://unsplash.com/de/@zn35pjqq?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jon Parry</a> on <a href="https://unsplash.com/photos/4A9IELfRdwE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+
+
+// menu 
+
+menu header img/icon burger: <a href="https://www.flaticon.com/free-icons/burger" title="burger icons">Burger icons created by Freepik - Flaticon</a>
+
+wings img1 menu
 Photo by <a href="https://unsplash.com/@scotteckersley?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Scott Eckersley</a> on <a href="https://unsplash.com/photos/R-7_ErUOLxw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 
-burger img2, search burgers in free stock photos
+burger img2: Photo by Jonathan Borba: https://www.pexels.com/photo/hamburger-and-fries-photo-2983101/
 
 burger img3 menu
 Photo by Natan Machado Fotografia  Gastronômica : https://www.pexels.com/photo/bread-food-sandwich-dinner-15141034/;
 
+
+
+// contact 
+
+contact header img/icon: <a href="https://www.flaticon.com/free-icons/burger" title="burger icons">Burger icons created by Freepik - Flaticon</a> 
+
+burger chef img: Photo by <a href="https://unsplash.com/@jessonmata?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jesson Mata</a> on <a href="https://unsplash.com/photos/I2Erl2cU_A4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+location img taken from google maps, zoomed into location of pat's king of steaks 
+I do not own the restaurant, or affliated with the restaurant, it was used as an example 
