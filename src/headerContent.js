@@ -1,4 +1,4 @@
-import headerBurgerIcon from '../burger.png';
+import headerBurgerIcon from 'src/burger.png';
 
 export function headerContent() {  
 
