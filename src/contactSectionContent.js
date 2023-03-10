@@ -22,13 +22,13 @@ export const contactPage = () => {
 
     // let contactPageBurgerIcon = new Image(); 
 
-    contactPageBurgerIcon.src = '../hamburger-svgrepo-com.svg';
+    contactPageBurgerIcon.src = '../burger.png';
 
     let contactPagePhoneNumberText = document.createElement('p'); 
 
     contactPagePhoneNumberText.classList.add('contact-page-phone-number-styles'); 
 
-    contactPagePhoneNumberText.textContent = 'Phone: 877-543-6608';
+    contactPagePhoneNumberText.textContent = 'Phone: 215-468-1546';
 
     let contactPageAddressText = document.createElement('p'); 
 

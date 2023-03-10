@@ -10,11 +10,11 @@ export function headerContent() {
     
     // headerContentDiv.innerHTML = "Alec's House of Burgers <br> The Best In The City!";
     
-    headerContentDiv.textContent = "Alec's House of Burgers \r\n The Best In The City! \r\n  Dine-in, Takeout, Delivery";
+    headerContentDiv.textContent = "Alec's House of Burgers and Cheesesteak's \r\n The Best In The City! \r\n  Dine-in, Takeout, Delivery";
 
     let svgBurgerImg = document.createElement('img'); 
 
-    svgBurgerImg.src ='../hamburger-svgrepo-com.svg'
+    svgBurgerImg.src ='../burger.png';
 
     svgBurgerImg.style.width = '4em';
 

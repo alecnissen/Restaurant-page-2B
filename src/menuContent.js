@@ -18,6 +18,8 @@ div.classList.add('menu-section-div');
 
 let hamburgerSVGIMG = document.createElement('img'); 
 
+hamburgerSVGIMG.classList.add('menu-burger-top-img');
+
 hamburgerSVGIMG.src = '../burger.png'; 
 
 let lineBreak = document.createElement("br");

@@ -3,10 +3,10 @@ import './style.css';
 import { renderPageContents } from './initialPageLoad'; 
 
 import { menuContent } from './menuContent.js';
-import { headerContent } from './headerContent';
+// import { headerContent } from './headerContent';
 import { mainContent } from './mainContent';
-import { footerContent } from './footerContent'; 
-import { contactPage } from './contactSectionContent';
+// import { footerContent } from './footerContent'; 
+import { contactPage } from './contactSectionContent'; 
 
 let contentDivContainer = document.getElementById('content'); 
 
