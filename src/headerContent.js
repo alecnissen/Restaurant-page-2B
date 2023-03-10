@@ -1,4 +1,6 @@
-export function headerContent() { 
+import headerBurgerIcon from '../burger.png';
+
+export function headerContent() {  
 
     const headerContentDiv = document.createElement('div'); 
 
@@ -12,11 +14,11 @@ export function headerContent() {
     
     headerContentDiv.textContent = "Alec's House of Burgers and Cheesesteak's \r\n The Best In The City! \r\n  Dine-in, Takeout, Delivery";
 
-    let svgBurgerImg = document.createElement('img'); 
+    let headerBurgerIcon = document.createElement('img'); 
 
-    svgBurgerImg.src ='../burger.png';
+    headerBurgerIcon.src = headerBurgerIcon;
 
-    svgBurgerImg.style.width = '4em';
+    headerBurgerIcon.style.width = '4em';
 
     const homeBtn = document.createElement('button');
 
@@ -42,7 +44,7 @@ export function headerContent() {
 
     contactBtn.textContent = 'Contact';
 
-    headerContentDiv.appendChild(svgBurgerImg);
+    headerContentDiv.append(headerBurgerIcon);
 
     headerBtnContainer.append(homeBtn);
 

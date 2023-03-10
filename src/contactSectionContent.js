@@ -9,7 +9,7 @@
 
 import locationPicture from '../rest-page-contact-page-location-2 (1).png';
 
-// import burgerIcon from '../icons8-burgers-64.png';
+// import burgerIcon from '../icons8-burgers-64.png'; 
 
 export const contactPage = () => { 
     let div = document.createElement('div');

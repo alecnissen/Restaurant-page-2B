@@ -10,17 +10,19 @@
 // I would possibly add a button at the top, that says click here to order online 
 // text above button then just a standard button styled 
 
+import menuBurgerIcon from '../burger.png';
+
 export const menuContent = () => { 
 
 let div = document.createElement('div'); 
 
 div.classList.add('menu-section-div');
 
-let hamburgerSVGIMG = document.createElement('img'); 
+let menuBurgerIcon = document.createElement('img'); 
 
-hamburgerSVGIMG.classList.add('menu-burger-top-img');
+menuBurgerIcon.classList.add('menu-burger-top-img');
 
-hamburgerSVGIMG.src = '../burger.png'; 
+menuBurgerIcon.src = menuBurgerIcon; 
 
 let lineBreak = document.createElement("br");
 
@@ -246,7 +248,7 @@ phillyCheeseSteakBurgerDescription.textContent = 'Fresh italian buns, prime grou
 
 phillyCheeseSteakBurgerInput.appendChild(phillyCheeseSteakBurgerDescription);
 
-div.appendChild(hamburgerSVGIMG);
+div.appendChild(menuBurgerIcon);
 
 div.appendChild(lineBreak);
 
