@@ -11,6 +11,8 @@ import locationPicture from '../rest-page-contact-page-location-2 (1).png';
 
 import smallBurgerIcon from '../burger.png';
 
+import chefImg from '../jesson-mata-I2Erl2cU_A4-unsplash.jpg';
+
 export const contactPage = () => { 
     let div = document.createElement('div');
     
@@ -48,7 +50,7 @@ export const contactPage = () => {
 
     let burgerChefImg = new Image(); 
 
-    burgerChefImg.src = '../jesson-mata-I2Erl2cU_A4-unsplash.jpg';
+    burgerChefImg.src = chefImg;
 
     burgerChefImg.style.width = '52em'; 
 
