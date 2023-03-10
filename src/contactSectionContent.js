@@ -50,9 +50,9 @@ export const contactPage = () => {
 
     let burgerChefImg = new Image(); 
 
-    burgerChefImg.src = chefImg;
+    burgerChefImg.classList.add('contact-page-burger-chef-img');
 
-    burgerChefImg.style.width = '52em'; 
+    burgerChefImg.src = chefImg;
 
     let contactPageLineBreak = document.createElement('br');
 

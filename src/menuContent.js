@@ -82,7 +82,7 @@ let bonelessWingsDescriptionText = document.createElement('p');
 
 bonelessWingsDescriptionText.classList.add('boneless-wings-description-text'); 
 
-bonelessWingsDescriptionText.textContent = 'Served with blue cheese, BBQ sauce, butter and garlic and cajun buffalo';
+bonelessWingsDescriptionText.textContent = 'Served with blue cheese, BBQ sauce, or butter and garlic and cajun buffalo sauce';
 
 bonelessWingsInput.appendChild(bonelessWingsDescriptionText);
 
@@ -96,7 +96,7 @@ let mozzarellaStickDescription = document.createElement('p');
 
 mozzarellaStickDescription.classList.add('mozzarella-stick-description-text');
 
-mozzarellaStickDescription.textContent = 'Served with out marinara sauce'; 
+mozzarellaStickDescription.textContent = 'Served with our marinara sauce'; 
 
 mozzarellaStickInput.appendChild(mozzarellaStickDescription); 
 
@@ -110,7 +110,7 @@ let alecNachosDescription = document.createElement('p');
 
 alecNachosDescription.classList.add('alec-nachos-description-text'); 
 
-alecNachosDescription.textContent = 'Tortilla chips loaded with beans, chili, melted chedder cheese, lettuce, onions, jalapenos, tomatoes, served with sour cream and salsa'
+alecNachosDescription.textContent = 'Tortilla chips loaded with beans, chili, melted chedder cheese, lettuce, onions, jalapenos, tomatoes, served with sour cream and salsa';
 
 alecNachosInput.appendChild(alecNachosDescription); 
 
@@ -136,7 +136,7 @@ let theClassicBurgerDescription = document.createElement('p');
 
 theClassicBurgerDescription.classList.add('the-classic-burger-description-text'); 
 
-theClassicBurgerDescription.textContent = "Get ready, tdwo fresh buns, the finest grass-fed ground beef patties, crisp lettuce, tomato, onions, sirachi and mayo sauce, topped off peppers and your choice of spices!";
+theClassicBurgerDescription.textContent = "Get ready, two fresh buns, the finest grass-fed ground beef patties, crisp lettuce, tomato, onions, sirachi and mayo sauce, topped off with peppers and your choice of spices!";
 
 theClassicBurgerInput.appendChild(theClassicBurgerDescription);
 
@@ -223,6 +223,8 @@ steakMilanoCheeseSteakDescription.textContent = 'Soft fluffy Italian roll, thin-
 steakMilanoCheeseSteakInput.appendChild(steakMilanoCheeseSteakDescription);
 
 let menuContentImg3 = new Image(); 
+
+menuContentImg3.classList.add('menu-content-img-3');
 
 menuContentImg3.src = menuBurgerImgFinal;
 

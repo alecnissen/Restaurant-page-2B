@@ -123,19 +123,16 @@
 }  
 
 .wings-picture-menu-content { 
-   width: 10em;
+   width: 11em;
 }
 
 .menu-picture-burger-img-2 { 
-   width: 12em; 
-}
+   width: 14em; 
+} 
 
-/* .contact-page-location-picture-styles { 
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-} */
+.menu-content-img-3 { 
+   width: 15em; 
+} 
 
 .contact-page-container-div-styles { 
    display: flex;
@@ -143,7 +140,11 @@
    justify-content: center;
    align-items: center;
    background-color: yellow;
-} 
+}  
+
+.contact-page-burger-chef-img { 
+   width: 52em;
+}
 
 .contact-page-phone-number-styles, 
 .contact-page-address-text-styles, 
