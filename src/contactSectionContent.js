@@ -1,11 +1,3 @@
-// contact page should include 
-// phone 
-// address 
-// hours of operation 
-// picture of the location, maybe a description 
-// to tell the user to click the picture to access maps 
-
-
 
 import locationPicture from '../rest-page-contact-page-location-2 (1).png';
 
@@ -21,8 +13,6 @@ export const contactPage = () => {
     let contactPageBurgerIcon = document.createElement('img'); 
 
     contactPageBurgerIcon.style.width = '15em';
-
-    // let contactPageBurgerIcon = new Image(); 
 
     contactPageBurgerIcon.src = smallBurgerIcon;
 
@@ -71,12 +61,6 @@ export const contactPage = () => {
     div.appendChild(contactPageLineBreak);
     
     div.appendChild(locationPictureContactPage);
-
-// div.textContent = 'this is a contact page!!'; 
-
-// div.style.backgroundColor = 'yellow'; 
-
-// div.style.color = 'black';
 
 return div; 
 

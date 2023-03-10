@@ -9,9 +9,7 @@ export const mainContent = () => {
     const textOverImagesDiv = document.createElement('div');
 
     textOverImagesDiv.classList.add('text-over-image-styles');
-    // change here, textContent 
-    // textOverImagesDiv.innerHTML = 'Welcome! <br> <br> Experience the Tradition <br> <br> Since 1994 we have been proudly serving the community. <br> <br> We take pride in our work and cannot wait to serve you and create wonderful memories';
-
+    
     textOverImagesDiv.textContent = 'Welcome! \r\n \r\n Experience and taste the Tradition! \r\n \r\n Since 1994 we have been proudly serving the community. \r\n \r\n We take pride in our work and cannot wait to serve you and create wonderful memories';
 
     mainDivContainer.classList.add('main-content-div-container');

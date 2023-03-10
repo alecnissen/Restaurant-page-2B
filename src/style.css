@@ -6,7 +6,6 @@
    flex-direction: column;
    align-items: center;
    text-align: center;
-   /* color: red; */
    color: white; 
    line-height: 2;
    font-size: 4rem;
@@ -14,7 +13,6 @@
    font-family: 'Permanent Marker', cursive;
    font-size: 4rem;
    padding: 50px; 
-   /* border: 7mm ridge red; */
    border: 2mm ridge white;
    white-space: pre-line;
 }  
@@ -27,6 +25,10 @@
    margin-left: 17px; 
 } 
 
+.header-burger-icon-styles { 
+   width: 4em;
+}
+
 .home-btn, 
 .menu-btn, 
 .contact-btn, 
@@ -36,24 +38,17 @@
    background-color: white;
 } 
 
-/* .menu-order-online-btn { 
-   display: flex;
-   justify-content: center;
-   align-items: center;
-} */
 
 
 
 .main-content-div-container { 
    display: flex; 
    justify-content: space-between;
-   /* position: relative; */
    background-color: black;
 }
 
 .burger-pics { 
    width: 35%; 
-   /* border: 20px solid red; */
 } 
 
 .text-over-image-styles { 
@@ -79,14 +74,12 @@
 } 
 
 .menu-section-div { 
-   /* display: flex; */
    background-color: yellow;
    color: black;
    text-align: center; 
    font-family: 'Permanent Marker', cursive;
    font-size: 3rem; 
    margin-bottom: -17px; 
-   /* text-decoration: underline; */
 } 
 
 .menu-burger-top-img { 

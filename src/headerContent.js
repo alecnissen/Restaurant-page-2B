@@ -10,15 +10,13 @@ export function headerContent() {
     
     headerContentDiv.classList.add('header-content-container');
     
-    // headerContentDiv.innerHTML = "Alec's House of Burgers <br> The Best In The City!";
-    
     headerContentDiv.textContent = "Alec's House of Burgers and Cheesesteak's \r\n The Best In The City! \r\n  Dine-in, Takeout, Delivery";
 
     let headerBurgerTopIcon = document.createElement('img'); 
 
-    headerBurgerTopIcon.src = headerBurgerIcon;
+    headerBurgerTopIcon.classList.add('header-burger-icon-styles');
 
-    headerBurgerTopIcon.style.width = '4em';
+    headerBurgerTopIcon.src = headerBurgerIcon;
 
     const homeBtn = document.createElement('button');
 
@@ -40,8 +38,6 @@ export function headerContent() {
 
     menuBtn.textContent = 'Menu';
 
-    // orderOnlineBtn.textContent = 'Order Online';
-
     contactBtn.textContent = 'Contact';
 
     headerContentDiv.append(headerBurgerTopIcon);
@@ -49,8 +45,6 @@ export function headerContent() {
     headerBtnContainer.append(homeBtn);
 
     headerBtnContainer.append(menuBtn);
-
-    // headerBtnContainer.append(orderOnlineBtn);
 
     headerBtnContainer.append(contactBtn);
 

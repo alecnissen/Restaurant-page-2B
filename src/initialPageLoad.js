@@ -6,8 +6,6 @@ import { footerContent } from './footerContent';
 
 let contentDivContainer = document.getElementById('content'); 
 
-console.log(contentDivContainer);
-
 export function renderPageContents() { 
     contentDivContainer.appendChild(headerContent());
 
