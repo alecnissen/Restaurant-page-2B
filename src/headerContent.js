@@ -1,4 +1,4 @@
-import headerBurgerIcon from 'burger.png';
+import headerBurgerIcon from '../burger.png';
 
 export function headerContent() {  
 
@@ -56,6 +56,6 @@ export function headerContent() {
 
     headerContentDiv.append(headerBtnContainer); 
     
-    return  headerContentDiv ;
+    return headerContentDiv ;
     
 }
