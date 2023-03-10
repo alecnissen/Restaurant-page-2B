@@ -9,7 +9,7 @@
 
 import locationPicture from '../rest-page-contact-page-location-2 (1).png';
 
-// import burgerIcon from '../icons8-burgers-64.png'; 
+import smallBurgerIcon from '../burger.png';
 
 export const contactPage = () => { 
     let div = document.createElement('div');
@@ -22,7 +22,7 @@ export const contactPage = () => {
 
     // let contactPageBurgerIcon = new Image(); 
 
-    contactPageBurgerIcon.src = '../burger.png';
+    contactPageBurgerIcon.src = smallBurgerIcon;
 
     let contactPagePhoneNumberText = document.createElement('p'); 
 

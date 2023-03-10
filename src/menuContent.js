@@ -12,7 +12,11 @@
 
 import menuBurgerIcon from '../burger.png';
 
-import wingsMenuImg from '../scott-eckersley-R-7_ErUOLxw-unsplash.jpg';
+import wingsMenuImg from '../scott-eckersley-R-7_ErUOLxw-unsplash.jpg'; 
+
+import menuBurgerImg1 from '../Burgers-image-3.jpg'; 
+
+import menuBurgerImgFinal from '../pexels-natan-machado-fotografia-gastronômica-15141034.jpg';
 
 export const menuContent = () => { 
 
@@ -182,7 +186,7 @@ let burgerMenuContentImg2 = new Image();
 
 burgerMenuContentImg2.classList.add('menu-picture-burger-img-2');
 
-burgerMenuContentImg2.src = '../Burgers-image-3.jpg';
+burgerMenuContentImg2.src = menuBurgerImg1;
 
 let cheeseSteaksMenuText = document.createElement('div'); 
 
@@ -220,7 +224,7 @@ steakMilanoCheeseSteakInput.appendChild(steakMilanoCheeseSteakDescription);
 
 let menuContentImg3 = new Image(); 
 
-menuContentImg3.src = '../pexels-natan-machado-fotografia-gastronômica-15141034.jpg';
+menuContentImg3.src = menuBurgerImgFinal;
 
 let pepperCheeseSteakInput = document.createElement('div');
 
